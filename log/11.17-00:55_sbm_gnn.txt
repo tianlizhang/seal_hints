@@ -1,0 +1,12 @@
+2022-11-17 00:55:39 - INFO - python 01_gnn.py --dataset sbm --train_start 0 --train_end 40 --valid_start 40 --valid_end 41 --log sbm_gnn --k 100
+2022-11-17 00:55:39 - INFO - Namespace(log='sbm_gnn', gid=3, dataset='sbm', data_path='../../01_process/data_papers/sbm/', train_start=0, train_end=40, valid_start=40, valid_end=41, node_year=5, train_num=3000, num_ngh=[100, 20, 1, 15], val_percent=100, k=100, epochs=700, bs=4096, lr=0.0005, embed_dim=128, hidden_channels=128, num_layers=3, dropout=0, gnn='rgcn', method='cave', fusion_mode='cat', beta=0.5, alpha=0.5, valid_freq=1, only_papers=False, save_dir='../save', linkgnn='sage', device=device(type='cuda', index=3), num_rels=4)
+2022-11-17 00:55:48 - INFO - {'mrr': {40: 0.03926786035299301}, 'cor': {}, 'male': {}}
+2022-11-17 01:01:56 - INFO - epoch: 0, train: {'mrr': {0: 0.7546529769897461}, 'cor': 0, 'male': 0, 'loss': 1.3857}, valid: {'mrr': {40: 0.0883169025182724}, 'cor': {}, 'male': {}}
+2022-11-17 01:06:50 - INFO - epoch: 1, train: {'mrr': {0: 0.7627819776535034}, 'cor': 0, 'male': 0, 'loss': 1.383}, valid: {'mrr': {40: 0.06625086069107056}, 'cor': {}, 'male': {}}
+2022-11-17 01:13:14 - INFO - epoch: 2, train: {'mrr': {0: 0.8553400039672852}, 'cor': 0, 'male': 0, 'loss': 1.1759}, valid: {'mrr': {40: 0.06981126964092255}, 'cor': {}, 'male': {}}
+2022-11-17 01:19:20 - INFO - epoch: 3, train: {'mrr': {0: 0.862922191619873}, 'cor': 0, 'male': 0, 'loss': 1.145}, valid: {'mrr': {40: 0.0720728412270546}, 'cor': {}, 'male': {}}
+2022-11-17 01:25:35 - INFO - epoch: 4, train: {'mrr': {0: 0.864414632320404}, 'cor': 0, 'male': 0, 'loss': 1.1393}, valid: {'mrr': {40: 0.09980795532464981}, 'cor': {}, 'male': {}}
+2022-11-17 01:31:35 - INFO - epoch: 5, train: {'mrr': {0: 0.8592675924301147}, 'cor': 0, 'male': 0, 'loss': 1.149}, valid: {'mrr': {40: 0.12588422000408173}, 'cor': {}, 'male': {}}
+2022-11-17 01:37:39 - INFO - epoch: 6, train: {'mrr': {0: 0.8579398393630981}, 'cor': 0, 'male': 0, 'loss': 1.1582}, valid: {'mrr': {40: 0.06661783158779144}, 'cor': {}, 'male': {}}
+2022-11-17 01:43:32 - INFO - epoch: 7, train: {'mrr': {0: 0.8653548359870911}, 'cor': 0, 'male': 0, 'loss': 1.131}, valid: {'mrr': {40: 0.06845562905073166}, 'cor': {}, 'male': {}}
+2022-11-17 01:48:13 - INFO - epoch: 8, train: {'mrr': {0: 0.8636084198951721}, 'cor': 0, 'male': 0, 'loss': 1.145}, valid: {'mrr': {40: 0.07883013784885406}, 'cor': {}, 'male': {}}
